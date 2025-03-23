@@ -63,4 +63,4 @@ async def on_message(message):
     await bot.process_commands(message)
 
 # Run bot
-bot.run("MTM0NzM2NzQ4OTg3NjY2MDI0NA.G9E8CW.2m7WAKP1TRcjhIXR0mKUCDci7KbMOUOQLMTF6c")  # Replace with your bot token
+bot.run(os.getenv("SECRET_KEY"))  # Replace with your bot token
